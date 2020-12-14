@@ -1,0 +1,130 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  margin: 20px;
+  width: 65%;
+}
+
+.divider {
+  border-bottom: 2px solid #b8c2cb;
+}
+
+.title {
+  color: #b8c2cb;
+  margin: 0;
+}
+
+.button {
+  background-color: steelblue;
+  border-radius: 5px;
+  border-color: steelblue;
+  padding: 18px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.img,.outdentImg {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.outdentImg {
+  transform: rotate(-180deg);
+}
+
+.img:hover,.outdentImg:hover {
+  background-color: #00b9f5;
+} 
+
+.wrapper {
+  display: flex;
+  padding: 10px 0;
+
+}
+
+.actionsWrapper {
+  margin-right: 100px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.content {
+  font-size: 14px;
+  color: #b8c2cb;
+}
+
+.actionWrapper {
+  display: flex;
+}
+
+.standard {
+  width: 60%;
+  display: flex;
+}
+
+.action {
+  padding: 10px 0;
+  opacity: 0.4;
+}
+
+.standardText {
+  font-size: 14px;
+  color: #b8c2cb;
+  padding: 10px 0
+}
+
+.standardInput {
+  width: 38%;
+  padding: 5px;
+  border: 1px solid #b8c2cb;
+}
+
+.inputVal {
+  font-weight: bold;
+  color: #00b9f5;
+}
+
+.none {
+  display: none;
+}
+
+.visible {
+  display: inline-block;
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.separator {
+  background-color: #f9fafa;
+  text-align: center;
+  color: #b8c2cb;
+  margin: 0 45px 0 30px;
+  position: relative;
+  padding: 10px 16px;
+}
+
+.IndentVal {
+  font-weight: bold;
+  color: black;
+}
+
+.marginLeft {
+  margin-left: 25px;
+}
